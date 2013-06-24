@@ -1,6 +1,6 @@
 # One Month Rails
 
-This is the sample application for
+This is the Jun Jensen's sample application for
 [*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
 
 piggy backing by [Jun Jensen](http://junjensen.com)
