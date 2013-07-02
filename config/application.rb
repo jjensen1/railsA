@@ -47,6 +47,11 @@ module ChknoutRails
     # like if you have constraints or database-specific column types
     # config.active_record.schema_format = :sql
 
+    # From https://github.com/thomas-mcdonald/bootstrap-sass:
+    # Due to a change in Rails that prevents images from being compiled in 
+    # vendor and lib, you'll need to add the following line to your application.rb:
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
     # Enforce whitelist mode for mass assignment.
     # This will create an empty whitelist of attributes available for mass-assignment for all models
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
